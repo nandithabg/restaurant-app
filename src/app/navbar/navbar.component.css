@@ -1,0 +1,24 @@
+nav.navbar{
+    height: 5rem;
+}
+
+a.navbar-brand{
+
+    padding: 10px;
+    margin:10px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20pt;
+}
+
+a.nav-link{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+    color:whitesmoke;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 900;
+}

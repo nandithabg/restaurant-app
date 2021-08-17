@@ -1,0 +1,48 @@
+.card{
+    
+    height: 20rem;
+    
+}
+
+.fas{
+    color: tomato;
+}
+
+p{
+    float: left;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 1px;
+}
+
+button, a{
+    float: left;
+    margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 5px;
+  width:80px;
+   
+
+}
+.left{
+    float: left;
+
+}
+
+#delivery{
+    background-image: url("../../assets/images/uber_eats.jpeg");
+    background-repeat: no-repeat;
+    background-size: 60px auto;
+  background-position: center;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#view{
+   font-size: 15px;
+    
+}
+

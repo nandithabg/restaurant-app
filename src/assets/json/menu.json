@@ -1,0 +1,249 @@
+{
+  "menu":[
+    {
+     
+  "type":"To share",
+  "items":[
+      {
+     "price": "$12.50",
+     "name": "Crispy Shrimp Roll",
+     "type":"To Share",
+     "description": "Avocado, shrimp, cucumber, mango, unagi sauce, sriracha mayo"
+   },
+   {
+     "price": "$11.50",
+     "name": "Street Chicken Tacos",
+     "type":"To Share",
+     "description": "Corn tortillas, white cheddar, cabbage, jalapeño crema, slow roasted achiote chicken, cilantro, fresh cut salsa"
+   },
+   {
+     "price": "$10.00",
+     "name": " Hot Wings ",
+     "type":"To Share",
+     "description": "Served with creamy ranch dip"
+   },
+   {
+     "price": "$9.00",
+     "name": "Dragon Roll",
+     "type":"To Share",
+     "description": "Marinated ahi tuna, avocado, yam, tamago, spicy mayo, tobiko"
+   },
+   {
+     "price": "$10.00",
+     "name": "Lobster Tostadas",
+     "type":"To Share",
+     "description": "Sweet Atlantic lobster, avocado, jalapeño crema, pico de gallo"
+   },
+   {
+     "price": "$8.00",
+     "name": "Buffalo Cauliflower",
+     "type":"To Share",
+     "description": "Tender cauliflower, buffalo sauce, creamy ranch dip"
+   }]
+  },
+  {
+  "type":"Salads + Soups",
+  "items":[
+   {
+     "price": "$5.50",
+     "name": "Field Greens Salad",
+     "type":"Salads + Soups",
+     "description": "Grape tomatoes, cucumber, feta, toasted pumpkin seeds, champagne shallot vinaigrette"
+   },
+   {
+     "price": "$6.50",
+     "name": "Quinoa + Avocado Powerbowl*",
+     "type":"Salads + Soups",
+     "description": "Roasted squash, beets, green goddess dressing, pumpkin seeds, crispy chickpeas"
+   },
+   {
+     "price": "$5.50",
+     "name": "Caesar Salad",
+     "type":"Salads + Soups",
+     "description": "Crisp romaine, croutons, parmesan, creamy caesar dressing"
+   },
+   {
+     "price": "$7.50",
+     "name": "Famous Clam Chowder",
+     "type":"Salads + Soups",
+     "description": "New England style, with full cream, chopped tomatoes, parsley, a hint of smoky bacon"
+   }]
+  },
+   {
+    "type":"Burgers + More",
+    "items":[
+   {
+     "price": "$14.50",
+     "name": "The Stack Burger",
+     "type":"Burgers + More",
+     "description": "Twin 4 oz patties, habanero jack cheese, secret sauce, freshly toasted brioche bun"
+   },
+   {
+     "price": "$16.50",
+     "name": "Impossible Burger",
+     "type":"Burgers + More",
+     "description": "100% plant based burger, tomatoes, onions, lettuce, pickles, mayonnaise and mustard, on a toasted brioche bun"
+   },
+   {
+     "price": "$14.50",
+     "name": "Hot Crispy Chicken Sandwich",
+     "type":"Burgers + More",
+     "description": "Hot fried chicken thigh, lemon slaw, sweet pickle, honey mustard mayonnaise, on a toasted brioche bun"
+   },
+   {
+     "price": "$12.50",
+     "name": "California Burger",
+     "type":"Burgers + More",
+     "description": "Twin 4 oz patties, smoked bacon and avocado, aged cheddar, banana peppers, tomatoes, onion, lettuce, sriracha mayo, on a toasted brioche bun"
+   },
+   {
+     "price": "$16.50",
+     "name": "Street Chicken Tacos",
+     "type":"Burgers + More",
+     "description": "Corn tortillas, white cheddar, cabbage, jalapeño crema, slow roasted achiote chicken, cilantro, fresh cut salsa"
+   },
+   {
+     "price": "$17.50",
+     "name": "Crispy Cod + Chips",
+     "type":"Burgers + More",
+     "description": "One piece of crispy battered Icelandic cod (5 oz), house tartar, coleslaw"
+   }]
+  },
+    {
+      "type":"Main Course",
+      "items":[
+     {
+     "price": "$21.50",
+     "name": "Lobster + Shrimp Ravioli",
+     "type":"Main Course",
+     "description": "Sweet Atlantic lobster, shrimp, celery root ravioli, lobster cream sauce, freshly grated Grana Padano parmesan"
+   },
+   {
+     "price": "$25.50",
+     "name": "Thai Shrimp + Scallop Curry Bowl",
+     "type":"Main Course",
+     "description": "Coconut curry, seared shrimp and scallops, mushrooms, steamed jasmine rice, crispy onions"
+   },
+   {
+     "price": "$27.50",
+     "name": "Black Angus Sirloin*",
+     "type":"Main Course",
+     "description": "Classic sirloin served with buttery mashed potatoes and seasonal vegetables"
+   },
+   {
+     "price": "$28.50",
+     "name": "Steak Frites",
+     "type":"Main Course",
+     "description": "Made from scratch peppercorn sauce, seasonal vegetables, buttery mashed potatoes"
+   },
+   {
+     "price": "$25.50",
+     "name": "Cajun Blackened Chicken",
+     "type":"Main Course",
+     "description": "Blackened full breast of chicken, garlic butter, warm potato salad, smoky bacon, coleslaw"
+   },
+   {
+     "price": "$20.50",
+     "name": "BBQ Ribs",
+     "type":"Main Course",
+     "description": "Tender pork, braised low and slow, with warm potato salad, smoky bacon, coleslaw"
+   }
+    ]
+
+}],
+
+"Bar":[
+  {
+    "type":"Cocktail",
+    "items":[
+      {
+        "price": "$10.50",
+        "name": "Mojito",
+        "type":"Cocktail",
+        "description": "Grey Goose Citron, Cointreau, Limoncello, Fresh Lemon Juice"
+      },
+      {
+        "price": "$12.50",
+        "name": "Moscow Mule",
+        "type":"Cocktail",
+        "description": "Classic Mule - Smirnoff vodka, ginger and fresh lime. Passion Mule - Smirnoff citrus vodka, passion fruit, pineapple, tiki spice"
+      },
+      {
+        "price": "$11.50",
+        "name": "Signature Bloody Mary",
+        "type":"Cocktail",
+        "description":"Smirnoff vodka, tomato juice and signature spices"
+        
+      },
+      {
+        "price": "$13.50",
+        "name": "Spicy Watermelon Margarita",
+        "type":"Cocktail",
+        "description":"El Jimador blanco, Aperol, Licor 43, watermelon, fresh lime juice, habanero peppers, mint and strawberry essence"
+      }]
+
+    
+  },
+  {
+    "type":"Wine",
+    "items":[
+      {
+        "price": "$20.50",
+        "name": "Bieler Père et Fils Sabine Rosé, Provence, France",
+        "type":"Wine",
+        "description": ""
+      },
+      {
+        "price": "$10.50",
+        "name": "Cambria Julia's Vineyard Pinot Noir, Santa Maria Valley, CA",
+        "type":"Wine",
+        "description": ""
+      },
+      {
+        "price": "$12.50",
+        "name": "The Prisoner Red, Napa Valley, CA",
+        "type":"Wine",
+        "description": ""
+      },
+      {
+        "price": "$10.50",
+        "name": "Telmo Rodriguez Basa Blanco, Rueda, Spain",
+        "type":"Wine",
+        "description": ""
+      }]
+  },
+  {
+    "type":"Beer",
+    "items":[
+      {
+        "price": "$10.50",
+        "name": "Downeast Original Cider",
+        "type":"Beer",
+        "description": ""
+      },
+      {
+        "price": "$9.50",
+        "name": "Golden Road Brewing Mango Cart Wheat Ale",
+        "type":"Beer",
+        "description": ""
+      },
+      {
+        "price": "$10.50",
+        "name": "Nightshift Whirlpool New England Pale Ale",
+        "type":"Beer",
+        "description": ""
+      },
+      {
+        "price": "$8.50",
+        "name": "Stella Artois",
+        "type":"Beer",
+        "description": ""
+      }
+    ]
+
+    
+  }
+
+]
+  
+}

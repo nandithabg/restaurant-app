@@ -1,0 +1,32 @@
+<div class="card" >
+  <img class="card-img-top" [src]="restaurant.photograph" alt="img" style="width:100%; height:150px">
+  <div class="card-body">
+  <h5 class="card-title">{{restaurant.name | reduce}}</h5>
+
+  <div class="left">
+    <p>
+      <span *ngFor="let check of checked()">
+        <span [ngClass]="{'fas':check,'far':!check}" class=" fa-star" ></span> 
+      </span>
+    </p>
+    
+     <p >{{restaurant.reviews.length}} reviews</p>
+  </div>
+  
+ <div class="left">
+  <p >{{restaurant.cuisine_type}} </p>
+  <p ><li></li></p>
+  <p >{{restaurant.city}}</p>
+  
+ </div>
+ 
+ <div class="left">
+  <a [routerLink]="['/profile',restaurant.id]" id="view" type="button" class="btn btn-danger">View</a>
+  <button *ngIf="restaurant.online === true" id="delivery" type="button" class="btn btn-light" >
+
+  </button>
+ </div>
+  
+  
+</div>
+</div>

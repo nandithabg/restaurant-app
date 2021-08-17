@@ -1,0 +1,75 @@
+<div class="row">
+  <div class="col-12">
+    <div class="bg-img">
+  
+      <navbar></navbar>
+
+      <!--<img  alt="img" src="assets/main2.jpg">-->
+
+      <div class="center-text">
+        <h1>Find the best restaurants, cafes and bar</h1>
+      </div>
+      
+      <div class="center" >
+        
+        
+          <input [(ngModel)]="city" name="city" type="text" placeholder="Search by location. Eg:Boston">
+          <button class="btn btn-danger" routerLinkActive="active" [routerLink]="['/place', city]"><i class="fas fa-search"></i>Search</button>
+        </div>
+     
+  
+    </div>
+  </div>
+
+</div>
+
+<div class="container">
+  <div class="carousel"  >
+    <h4>Restaurants near you <hr style=" border: 0.7 px solid grey"></h4>
+    
+    <carousel [restaurants]="filterLocation" ></carousel>
+  
+  </div>
+
+  <div class="carousel" >
+    <h4>Online Delivery <hr style=" border: 0.7 px solid grey"></h4>
+    
+    <carousel [restaurants]="filterOnline" ></carousel>
+  
+  </div>
+
+  <div class="carousel"  >
+    <h4>Order TakeOut<hr style=" border: 0.7 px solid grey"></h4>
+    
+    <carousel [restaurants]="filterTakeout" ></carousel>
+  
+  </div>
+
+  <div class="carousel"  >
+    <h4>American Restaurants near you <hr style=" border: 0.7 px solid grey"></h4>
+    
+    <carousel [restaurants]="filterCusine" ></carousel>
+  
+  </div>
+
+
+</div>
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+
+  
+
+
+

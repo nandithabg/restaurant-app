@@ -1,0 +1,10 @@
+#arrows{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+     opacity: 1;
+     border-radius:50%;
+     top:120px;
+     position: absolute;
+    }
+   

@@ -1,0 +1,49 @@
+<div class="container">
+
+ 
+  <div
+   id="multiitem"
+   class="carousel slide "
+   data-interval="false"
+   >
+   <div class="row">
+     
+    <a id="arrows" 
+      class="carousel-control-prev" href="#multiitem" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+     </a>
+     
+     <div class="carousel-inner">
+       <div class="carousel-item "
+       [ngClass]="{active:isFirst}" 
+       *ngFor="let res of arrOfArr ;index as index;first as isFirst" >
+       <div class="row">
+         <ng-container  *ngFor="let r of res; let i = index">         
+            <div class="col-lg-3"  >
+              <card  [restaurant]="r">
+
+              </card>
+            </div>
+          </ng-container>
+         </div>
+       </div>
+     </div>
+     
+     
+     <a id="arrows" 
+        class="carousel-control-next" href="#multiitem" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+  </div> 
+</div>
+
+
+</div>
+
+
+
+  
+
+
+
+  

@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-12">
+    <div class="bg-img">
+      <navbar></navbar>
+      <div class="center" >
+        
+        <input [(ngModel)]="cityValue"  name="cityValue" type="text" placeholder="Search by location">
+        <button class="btn btn-danger" (click)="searchCity()"><i class="fas fa-search"></i>Search</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-container *ngIf="filterCity.length <= 0; else search">
+  <div class="container">
+    <div class="row" >
+      <div class="col-10" id="nocity" >
+        <h3>Sorry the city you searched for is not found. Please search for another city</h3>
+      </div>
+      
+    </div>
+  </div>
+
+  
+
+</ng-container>
+
+<ng-template #search>
+  <div class="container">
+    <div class="row" id="cards">
+      <div class="col-3" *ngFor="let city of filterCity">
+        <card  [restaurant]="city"></card>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+
+
+  
+ 
+

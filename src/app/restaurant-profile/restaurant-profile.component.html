@@ -1,0 +1,222 @@
+  <div class="row">
+    <div class="col-12">
+      <div class="bg-img">
+        <navbar></navbar>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <div class="card" id="details">
+          <ng-container *ngFor="let d of detail">
+           
+           <div class="para">
+            <h1>{{d.name}}<hr style=" border: 0.5 px solid gray;"></h1>
+             <p class="float-left">
+              <span *ngFor="let check of checked()">
+                <span [ngClass]="{'fas':check,'far':!check}" class=" fa-star" style="color: red;"></span> 
+              </span>
+              <span style="margin-right: 4px;margin-left: 4px;">{{rating}}</span>
+            </p>
+            <p class="float-left"><i class="far fa-comment-alt"></i>{{d.reviews.length}} Reviews</p>
+            <p class="float-left"><i class="fas fa-utensils"></i>{{ d.cuisine_type}}</p>
+          </div>
+          <div style="margin-bottom:15px;font-size:18px;"><p>{{d.description}} </p></div>
+          
+          <div class="para">
+            <h3>Saftey Precautions<hr style=" border: 0.5 px solid grey;"></h3>
+            <div class="row">
+              <div class="col-6"> <h6>Cleaning & Sanitizing</h6>
+                <ul>
+                  <li><i class="fas fa-check-circle"></i>Surfaces sanitized between seatings</li>
+                  <li><i class="fas fa-check-circle"></i> Common areas deep cleaned daily</li> 
+                  <li><i class="fas fa-check-circle"></i> Digital, disposable or sanitized menu provided</li> 
+                  <li><i class="fas fa-check-circle"></i>Sanitizer or wipes provided for customers</li>  
+                </ul>
+                <h6>Physical Distancing</h6>
+                <ul>
+                  <li><i class="fas fa-check-circle"></i>Limited number of seated diners</li>
+                  <li><i class="fas fa-check-circle"></i>Extra space between tables</li>  
+                </ul>
+              </div>
+    
+              <div class="col-6">
+                 <h6>Screening</h6>
+                  <ul>
+                    <li><i class="fas fa-check-circle"></i>Sick staff prohibited in the workplace</li> 
+                  </ul>
+                  <h6>Protective Equipment</h6>
+                  <ul>
+                    <li><i class="fas fa-check-circle"></i>Waitstaff wear masks</li>  
+                  </ul>
+              </div>
+            </div>  
+           </div>
+    
+          <div class="para">
+            <h3>Photos<hr style=" border: 0.5 px solid grey;"></h3>
+            <div>
+              <img class="image" src =" ../../assets/images/1.jpg" alt="img">
+              <img class="image" src= " ../../assets/images/2.jpg" alt="img">
+              <img class="image" src=" ../../assets/images/3.jpg" alt="img">
+            </div>
+            <div>
+              <img class="image" src=" ../../assets/images/4.jpg" alt="img">
+              <img class="image" src=" ../../assets/images/5.jpg" alt="img">
+              <img class="image" src=" ../../assets/images/6.jpg" alt="img">
+            </div>
+          </div>
+    
+          <div class="para">
+            <h3>Menu<hr style=" border: 0.5 px solid grey;"></h3>
+    
+            <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="menu" data-toggle="pill" href="#pills-menu" role="tab" aria-controls="pills-menu" aria-selected="true">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="bar" data-toggle="pill" href="#pills-bar" role="tab" aria-controls="pills-bar" aria-selected="false">Bar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="dessert" data-toggle="pill" href="#pills-dessert" role="tab" aria-controls="pills-dessert" aria-selected="false">Dessert</a>
+              </li>
+            </ul>
+            <hr style=" border: 0.5 px solid grey;">
+    
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-menu" role="tabpanel" aria-labelledby="pills-menu-tab">
+                <ng-container  *ngFor="let m of menu" >
+                  <div class="row">
+                   <div class="col-12"><p style="font-size: 22px;">{{m.type}}</p></div>
+                   <div class="col-6" *ngFor="let f of m.items">
+                     <div class="row">
+                       <div class="col-9" id="item"> {{f.name}}</div>
+                       <div class="col-3" id="price">{{f.price}}</div>
+                       <div class="col-12"> <p id="desc">{{f.description}}</p></div>
+                     </div>
+                   </div>
+                 </div>
+                 <hr style=" border: 0.5 px solid gray;">
+               </ng-container>
+              </div>
+    
+              <div class="tab-pane fade" id="pills-bar" role="tabpanel" aria-labelledby="pills-bar-tab">
+                <ng-container  *ngFor="let b of bar" >
+                  <div class="row">
+                   <div class="col-12"><p style="font-size: 22px;">{{b.type}}</p></div>
+                   <div class="col-6" *ngFor="let d of b.items">
+                     <div class="row">
+                       <div class="col-9" id="item"> {{d.name}}</div>
+                       <div class="col-3" id="price">{{d.price}}</div>
+                       <div class="col-12"> <p id="desc">{{d.description}}</p></div>
+                     </div>
+                   </div>
+                 </div>
+                 <hr style=" border: 0.5 px solid gray;">
+               </ng-container>
+    
+              </div>
+    
+              <div class="tab-pane fade" id="pills-dessert" role="tabpanel" aria-labelledby="pills-contact-dessert">
+                <p>This is dessert page</p>
+              </div>
+            </div>
+    
+    
+    
+    
+    
+    
+    
+         
+           
+          </div>
+           
+            </ng-container>
+            </div>
+      </div>
+      <div class="col-4">
+        <div class="card" id="side-div" >
+          <h3>Reservations<hr style=" border: 0.5 px solid grey;"></h3>
+          <div class="form-group">
+            <label >Party size</label>
+            <select class="form-control" id="sel1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label >Date</label>
+            <select class="form-control" id="sel1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label >Time</label>
+            <select class="form-control" id="sel1">
+              <option>10:00 AM</option>
+              <option>11:00 AM</option>
+              <option>12:00 PM</option>
+              <option>1:00 PM</option>
+              <option>2:00 pM</option>
+              <option>3:00 PM</option>
+              <option>4:00 PM</option>
+              <option>5:00 PM</option>
+            </select>
+          </div>
+          <button class="btn btn-danger">Find a table</button>
+          
+      </div>
+
+      
+
+      <ng-container *ngFor="let d of detail">
+
+      <h4>Address</h4>
+      <p>{{d.address}}</p>
+      <h4>Telephone</h4>
+      <p>{{d.telephone}}</p>
+
+      <h4>Hours of Operation</h4>
+      
+        <p>Monday {{d.operating_hours.Monday}}
+        <br>Tuesday {{d.operating_hours.Tuesday}}
+        <br>Wednesday{{d.operating_hours.Wednesday}}
+        <br>Thursday {{d.operating_hours.Thursday}}
+        <br>Friday {{d.operating_hours.Friday}}
+        <br>Saturday {{d.operating_hours.Saturday}}
+        <br>Sunday {{d.operating_hours.Sunday}}</p>
+
+      
+      
+      </ng-container>
+
+     
+      </div>
+    </div>
+    
+
+
+      
+     
+
+
+
+  </div>
+  
+    
